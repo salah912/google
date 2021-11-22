@@ -1,0 +1,131 @@
+body {
+   font-family: 'Roboto', sans-serif;
+}
+header {
+    margin-top: 3%;
+   
+}
+.search {
+    color : white;
+    font-family: Arial, Helvetica, sans-serif;
+    height : 40px;
+    border:  1px black;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 3%;
+}
+.styled {
+    height: 40px;
+    margin-top : -5px;
+    margin-left: 1%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(51,105,232);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:hover {
+    background-color: rgb(80, 125, 230);
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.recherche {
+   width: 79%;    
+   height : 95%;
+   margin-left: 10%;
+   border:transparent;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 0.8em;
+    overflow: visible;
+    vertical-align: -.125em;
+    color: black;
+}
+
+.right{
+display: flex;
+justify-content: flex-end;
+height: 20px;
+}
+.link{
+margin-right: 1%;
+color : black;
+text-align: center;
+text-decoration-line: none;
+}
+a:hover {
+    text-decoration-line: underline;
+    color : black;
+  }
+.googleimg{
+width: 30%;
+height :30%;
+margin-left:35% ;
+margin-top: 10%;
+}
+.styled2 {
+    height: 30px;
+    margin-top : 13px;
+    margin-left: 13%;
+    border: 0;
+    line-height: 2;
+    padding: 0 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border: 10px;
+    background-color: rgba(242,242,242,255);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(151,154,155,255);
+}
+.styled2:hover {
+    background-color: rgb(216, 216, 216);
+}
+.styled2 :active {
+    box-shadow: inset -2px -2px 3px rgba(216, 216, 216),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+footer{
+    background-color: rgb(242,242,242,255);
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+    margin-left: -0.5%;
+}
+.bas {
+text-align: center;
+text-decoration-line: none;
+margin-left: 3%;
+color: black;
+}
+.bas2{
+    text-align: center;
+text-decoration-line: none;
+margin-left: 3%;
+color: black;
+
+}
